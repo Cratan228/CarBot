@@ -39,8 +39,6 @@ bot.help_command = PrettyHelp(
     timestamp=datetime.utcnow()
 )
 
-owner = 417939383698718720
-
 
 @bot.event
 async def on_ready():
@@ -80,4 +78,4 @@ for filename in os.listdir(f"{path}Cogs"):
     if filename.endswith(".py"):
         bot.load_extension(f"Cogs.{filename[:-3]}")
 
-bot.run("ODQyMjk4NDA2NDk5OTA5NjQz.YJzRhQ.LOHLy0UPXjbOuYcO9GhcOwmT2E4")
+bot.run(token)
