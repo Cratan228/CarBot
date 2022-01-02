@@ -39,8 +39,6 @@ bot.help_command = PrettyHelp(
     timestamp=datetime.utcnow()
 )
 
-owner = 417939383698718720
-
 
 @bot.event
 async def on_ready():
