@@ -1,3 +1,5 @@
+#logical error- recurring instances (work in progress)
+
 import json
 import discord
 import requests
